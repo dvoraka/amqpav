@@ -1,4 +1,4 @@
 amqpav
 ======
 
-Python module which offer anti-virus client and server communicating over AMQP. Message broker is RabbitMQ.
+Python module which offers an anti-virus client and a server communicating over AMQP. Message broker is RabbitMQ.
