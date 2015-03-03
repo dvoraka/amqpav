@@ -15,3 +15,12 @@ RabbitMQ server.
 # apt-get install rabbitmq-server
 ```
 
+## Devel run
+You can run server example from repository root with *runserver.sh* script.
+```
+$ ./runserver.sh
+AV Service
+----------
+Listening...
+
+```
