@@ -9,6 +9,10 @@ ClamAV server.
 ```
 # apt-get install clamav
 ```
+Start server:
+```
+# /etc/init.d/clamav-daemon start
+```
 
 Python ClamAV library.
 ```
@@ -18,6 +22,10 @@ Python ClamAV library.
 RabbitMQ server.
 ```
 # apt-get install rabbitmq-server
+```
+Start server:
+```
+# /etc/init.d/rabbitmq-server start
 ```
 
 ## Devel run
