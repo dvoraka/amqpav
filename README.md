@@ -5,6 +5,11 @@ Python module which offers an anti-virus client and a server communicating over 
 ## Prerequisities
 
 #### Debian Wheezy
+ClamAV server.
+```
+# apt-get install clamav
+```
+
 Python ClamAV library.
 ```
 # apt-get install python-pyclamd
