@@ -129,7 +129,7 @@ class AVClient:
     
     def __init__(
             self,
-            amqp_host='amqp://localhost/antivir',
+            amqp_host='amqp://localhost/antivirus',
             client_id=None):
         '''Create client.'''
 
@@ -306,7 +306,7 @@ class AVClient:
 class AVServer:
     '''AV AMQP server.'''
     
-    def __init__(self, amqp_url='amqp://localhost/antivir'):
+    def __init__(self, amqp_url='amqp://localhost/antivirus'):
         
         self.receiver = AVReceiver(amqp_url)
 
@@ -588,7 +588,7 @@ class AVReceiver:
     def __init__(
             self,
             mtype='JSON',
-            amqp_url='amqp://guest:guest@localhost/antivir',
+            amqp_url='amqp://guest:guest@localhost/antivirus',
             inex_name='check',
             outex_name='check-result'):
 
