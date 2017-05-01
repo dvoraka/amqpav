@@ -2,6 +2,8 @@
 
 Python module which offers an anti-virus client and a server communicating over AMQP. Message broker is RabbitMQ.
 
+Java successor is [av-service](https://github.com/dvoraka/av-service).
+
 ## Prerequisities
 
 #### Debian Wheezy
